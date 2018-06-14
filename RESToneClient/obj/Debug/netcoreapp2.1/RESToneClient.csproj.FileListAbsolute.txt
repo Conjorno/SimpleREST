@@ -1,0 +1,11 @@
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\bin\Debug\netcoreapp2.1\RESToneClient.deps.json
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\bin\Debug\netcoreapp2.1\RESToneClient.runtimeconfig.json
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\bin\Debug\netcoreapp2.1\RESToneClient.runtimeconfig.dev.json
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\bin\Debug\netcoreapp2.1\RESToneClient.dll
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\bin\Debug\netcoreapp2.1\RESToneClient.pdb
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\obj\Debug\netcoreapp2.1\RESToneClient.csprojAssemblyReference.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\obj\Debug\netcoreapp2.1\RESToneClient.csproj.CoreCompileInputs.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\obj\Debug\netcoreapp2.1\RESToneClient.AssemblyInfoInputs.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\obj\Debug\netcoreapp2.1\RESToneClient.AssemblyInfo.cs
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\obj\Debug\netcoreapp2.1\RESToneClient.dll
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESToneClient\obj\Debug\netcoreapp2.1\RESToneClient.pdb

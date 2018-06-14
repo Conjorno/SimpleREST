@@ -1,0 +1,14 @@
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\bin\Debug\netcoreapp2.1\RESTone.deps.json
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\bin\Debug\netcoreapp2.1\RESTone.runtimeconfig.json
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\bin\Debug\netcoreapp2.1\RESTone.runtimeconfig.dev.json
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\bin\Debug\netcoreapp2.1\RESTone.dll
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.csprojAssemblyReference.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.csproj.CoreCompileInputs.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.RazorAssemblyInfo.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.RazorAssemblyInfo.cs
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.AssemblyInfoInputs.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.AssemblyInfo.cs
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.RazorTargetAssemblyInfo.cache
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\bin\Debug\netcoreapp2.1\RESTone.pdb
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.dll
+C:\Users\pkndz\Documents\Visual Studio 2017\Projects\RESTone\RESTone\obj\Debug\netcoreapp2.1\RESTone.pdb
