@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Net.Http;
@@ -31,12 +32,12 @@ namespace MessagesClient
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RefreshListAsync();
+            RefreshListAsync("/GetAllDict");
         }
 
-        private async Task RefreshListAsync()
+        private async Task RefreshListAsync(string action)
         {
-            var uri = new Uri(string.Format(apiUrl + "/GetAllDict", String.Empty));
+            var uri = new Uri(string.Format(apiUrl + action, String.Empty));
             var response = await client.GetAsync(uri);
             if (response.IsSuccessStatusCode)
             {
@@ -56,7 +57,37 @@ namespace MessagesClient
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SearchAsync();
+        }
 
+        private async Task SearchAsync()
+        {
+            var body = new MessageModel();
+
+            if (!String.IsNullOrEmpty(textBox3.Text))
+                body.recipient = textBox3.Text;
+
+            if (!String.IsNullOrEmpty(textBox4.Text))
+                body.content = textBox4.Text;
+
+            var uri = new Uri(string.Format(apiUrl + "/search", string.Empty));
+
+            var json = JsonConvert.SerializeObject(body);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = null;
+
+            response = await client.PostAsync(uri, content);
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+            var result = JsonConvert.DeserializeObject<List<MessageModel>>(responseContent);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Debug.WriteLine(@"TodoItem successfully saved.");
+            }
+
+            listBox1.DataSource = result.ToList();
         }
     }
 }

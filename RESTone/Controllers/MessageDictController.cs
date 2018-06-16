@@ -64,5 +64,33 @@ namespace RESTone.Controllers
         {
             return HttpContext.Request.Path.Value;
         }
+
+        // POST: api/MessageDict
+        [HttpPost]
+        [Route("search")]
+        public List<Message> Search([FromBody] Message message)
+        {
+            var result = new List<Message>();
+
+            if (message.Id != 0)
+            {
+                result.Add(_messages[message.Id]);
+                return result;
+            }
+            else if (message.Content != null && message.Recipient != null)
+            {
+                return _messages.Values.Where(x => x.Recipient.Contains(message.Recipient) && x.Content.Contains(message.Content)).ToList();
+            }
+            else if (message.Recipient != null)
+            {
+                return _messages.Values.Where(x => x.Recipient.Contains(message.Recipient)).ToList();
+            }
+            else if (message.Content != null)
+            {
+                return _messages.Values.Where(x => x.Content.Contains(message.Content)).ToList();
+            }
+            else
+                return result;
+        }
     }
 }
