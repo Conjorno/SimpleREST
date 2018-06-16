@@ -3299,11 +3299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pkndz\\Documents\\Visual Studio 2017\\Projects\\RESTone\\RESToneClient\\RESToneClient.csproj",
+      "projectUniqueName": "C:\\Users\\pkndz\\Source\\Repos\\SimpleREST\\RESToneClient\\RESToneClient.csproj",
       "projectName": "RESToneClient",
-      "projectPath": "C:\\Users\\pkndz\\Documents\\Visual Studio 2017\\Projects\\RESTone\\RESToneClient\\RESToneClient.csproj",
+      "projectPath": "C:\\Users\\pkndz\\Source\\Repos\\SimpleREST\\RESToneClient\\RESToneClient.csproj",
       "packagesPath": "C:\\Users\\pkndz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pkndz\\Documents\\Visual Studio 2017\\Projects\\RESTone\\RESToneClient\\obj\\",
+      "outputPath": "C:\\Users\\pkndz\\Source\\Repos\\SimpleREST\\RESToneClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTone", "RESTone\RESTone.csproj", "{5789961D-6775-4F6D-BF9D-231B8BD7DAB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTone", "RESTone\RESTone.csproj", "{5789961D-6775-4F6D-BF9D-231B8BD7DAB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESToneClient", "RESToneClient\RESToneClient.csproj", "{60A8C289-E0A3-4098-B384-E50E944348DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesClient", "MessagesClient\MessagesClient.csproj", "{1EDE1D96-98CD-4066-ADDF-D85F9B7DAD36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{5789961D-6775-4F6D-BF9D-231B8BD7DAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5789961D-6775-4F6D-BF9D-231B8BD7DAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5789961D-6775-4F6D-BF9D-231B8BD7DAB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60A8C289-E0A3-4098-B384-E50E944348DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60A8C289-E0A3-4098-B384-E50E944348DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60A8C289-E0A3-4098-B384-E50E944348DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60A8C289-E0A3-4098-B384-E50E944348DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDE1D96-98CD-4066-ADDF-D85F9B7DAD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDE1D96-98CD-4066-ADDF-D85F9B7DAD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDE1D96-98CD-4066-ADDF-D85F9B7DAD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDE1D96-98CD-4066-ADDF-D85F9B7DAD36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
