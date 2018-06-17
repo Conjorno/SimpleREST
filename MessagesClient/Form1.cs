@@ -50,9 +50,12 @@ namespace MessagesClient
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             var message = messagesList.Where(x => x.recipient == listBox1.SelectedItem.ToString()).FirstOrDefault();
-            label7.Text = message.id.ToString();
-            textBox1.Text = message.recipient;
-            textBox2.Text = message.content;
+            if(message != null)
+            {
+                label7.Text = message.id.ToString();
+                textBox1.Text = message.recipient;
+                textBox2.Text = message.content;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -66,7 +69,7 @@ namespace MessagesClient
 
             if (!String.IsNullOrEmpty(textBox3.Text))
                 body.recipient = textBox3.Text;
-
+                
             if (!String.IsNullOrEmpty(textBox4.Text))
                 body.content = textBox4.Text;
 
@@ -87,7 +90,8 @@ namespace MessagesClient
                 Debug.WriteLine(@"TodoItem successfully saved.");
             }
 
-            listBox1.DataSource = result.ToList();
+            messagesList = result.ToList();
+            listBox1.DataSource = result.Select(x => x.recipient).ToList();
         }
     }
 }
